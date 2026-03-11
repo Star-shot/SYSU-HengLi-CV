@@ -130,11 +130,15 @@
         \begin{minipage}[t]{\textwidth}
         \section[个人信息]{\makebox[\iconwidth][c]{\color{primary_color}{\faAddressCard}}\quad 个人信息}
         \begin{minipage}[t]{0.5\textwidth}
-            \textbf{姓\qquad 名}：李衡\\[0.5em]
+            \textbf{姓\qquad 名}：李衡
+            
+            \vspace{0.5em}
             \textbf{出生年月}：2005年2月9日
         \end{minipage}
         \begin{minipage}[t]{0.35\textwidth}
-            \textbf{性\qquad 别}：男\\[0.5em]
+            \textbf{性\qquad 别}：男
+            
+            \vspace{0.5em}
             \textbf{邮箱}：liheng29@mail2.sysu.edu.cn
         \end{minipage}
         \vspace{0.5em}
@@ -209,7 +213,7 @@
     \end{minipage}
     
     % 如果每行的内容不是很多，可以考虑使用 minipage，将内容分列展示
-    \noindent\begin{minipage}[t]{0.55\textwidth}
+    \noindent\begin{minipage}[t]{0.53\textwidth}
         \vspace{0pt}
         \section[获奖经历]{\makebox[\iconwidth][c]{\color{primary_color}{\faStar}}\quad 获奖经历}
         \begin{itemize}
@@ -224,15 +228,23 @@
         \end{itemize}
 
         \vspace{0.3em}
-        \section[研究方向与技能]{\makebox[\iconwidth][c]{\color{primary_color}{\faCompass}}\quad 研究方向与技能}
-        \textbf{研究方向}：AI4Science\enspace/\enspace 多智能体系统\enspace/\enspace 强化学习算法优化
-        \vspace{0.6em}
+        \section[研究方向]{\makebox[\iconwidth][c]{\color{primary_color}{\faCompass}}\quad 研究方向}
+        \begin{itemize}
+        \setlength{\itemsep}{0.5em}
+            \item AI4Science
+            \item 多智能体系统
+            \item 强化学习算法优化
+        \end{itemize}
+    \end{minipage}\hfill%
+    \begin{minipage}[t]{0.42\textwidth}
+        \vspace{0pt}
+        \section[技能特长]{\makebox[\iconwidth][c]{\color{primary_color}{\faWrench}}\quad 技能特长}
         {\small\sloppy
-        \begin{itemize}[leftmargin=1.2em,labelsep=0.4em,itemsep=0.2em,topsep=0pt,parsep=0pt,partopsep=0pt,align=parleft]
+        \begin{itemize}[leftmargin=1.1em,labelsep=0.35em,itemsep=0.2em,topsep=0pt,parsep=0pt,partopsep=0pt,align=parleft]
             \item 熟练使用Python、C/C++、Matlab、Bash等。
             \item 熟悉Vibe Coding辅助开发。
-            \item 熟悉PyTorch、Transformer、verl等深度强化学习框架。
-            \item 熟悉OpenClaw、PhysicsSupernova等智能体系统。
+            \item 熟悉PyTorch、Transformer、verl等框架。
+            \item 熟悉OpenClaw、PhysicsSupernova等系统。
         \end{itemize}
         }
     \end{minipage}
